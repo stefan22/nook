@@ -1,0 +1,975 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Nook Responsive Html Email</title>
+</head>
+<style type="text/css">
+
+@media only screen and (max-width: 770px)  {
+		table.mainContainer {width:662px !important;}
+		td.row1 {padding:0 20px 40px 20px !important;}
+		td.row2 {padding:0 20px 25px 20px !important;}
+		td.row3 {padding:0 17px !important;}
+		table.topMenu {width:640px !important;}
+		td.row4 {padding:0 20px !important;}
+		td.row5 {padding:0 20px !important;}
+		table.bundlesRight {padding-right:20px;}
+		td.row6  {padding:0 20px !important;}
+		td.row7  {padding:0 20px !important;}
+		td.row8  {padding:0 20px !important;}
+		td.row9  {padding:0 20px 30px 20px !important;}
+		td.row10 {padding:0 20px !important;}
+		td.row11 {padding:0 20px !important;}
+		td.row12 {padding:0 20px 30px 20px !important;}
+		td.row13 {padding:0 20px !important;}
+		td.row14 {padding:0 20px !important;}
+		td.row15 {padding:0 20px 30px 20px !important;}
+		
+		td.row16 {padding:0 20px !important;}
+		td.row17 {padding:0 20px !important;}
+		td.row18 {padding:0 20px 30px 20px !important;}
+		td.row19 {padding:0 20px !important;}
+		td.row20 {padding:0 20px !important;}
+		td.row21 {padding:0 20px 30px 20px !important;}
+		td.row22 {padding:0 20px !important;}
+		td.row23 {padding:0 20px !important;}
+		td.row24 {padding:0 20px 30px 20px !important;}
+		td.row25 {padding:0 20px !important;}
+		table.footTable {width:640px !important;}
+				
+}
+
+@media only screen and (max-width: 730px) {
+		table.mainContainer {width:510px !important;}
+		table.topMenu {display:none !important;}
+		
+		table.bundlesRight {width:100% !important; padding:0 40px !important;}
+		table.bundlesLeft {width:100% !important; padding:0 25px;}
+		table.bundlesLeft h1 {font-size:24px !important;}
+		table.bundlesLeft p {font-size:14px !important;}
+		table.bundlesLeft a {font-size:14px !important;}
+		
+		table.writersLeft {width:100%; padding:0 25px;}
+		table.writersLeft h2 {font-size:22px !important;}
+		table.writersLeft p {font-size:14px !important; }
+		
+		table.writersRight {padding:0 25px !important; clear:left; ; width:100% !important;}
+		table.writersRight p {font-size:14px !important; margin-top:0px;}
+		table.writersRight a {font-size:14px !important;}
+		
+		td.row13 table.writersRight p {margin-top:14px !important;}
+		td.row19 table.writersRight p {margin-top:14px !important;}
+		td.row22 table.writersRight p {margin-top:14px !important;}
+		
+		
+		table.booksLeft {width:100% !important; padding:0 25px; margin-bottom:15px;}
+		table.booksRight {width:100% !important; padding:0 25px; clear:left;}
+		
+		
+		
+		td.row4 img {display:none !important;}
+		td.row4 {background:url(images/divider_small.png) no-repeat 10px 0; height:19px;}
+		td.row6 img {display:none !important;}
+		td.row6 {background:url(images/divider_small.png) no-repeat 10px 0; height:19px;}
+		td.row8 img {display:none !important;}
+		td.row8 {background:url(images/divider_small.png) no-repeat 10px 0; height:19px;}
+		td.row11 img {display:none !important;}
+		td.row11 {background:url(images/divider_small.png) no-repeat 10px 0; height:19px;}
+		td.row14 img {display:none !important;}
+		td.row14 {background:url(images/divider_small.png) no-repeat 10px 0; height:19px;}
+		td.row17 img {display:none !important;}
+		td.row17 {background:url(images/divider_small.png) no-repeat 10px 0; height:19px;}
+		td.row20 img {display:none !important;}
+		td.row20 {background:url(images/divider_small.png) no-repeat 10px 0; height:19px;}
+		td.row23 img {display:none !important;}
+		td.row23 {background:url(images/divider_small.png) no-repeat 13px 0; height:19px;}
+		td.footDivide img {display:none !important;}
+		td.footDivide {background:url(images/foot-divider_small.png) no-repeat 13px 0; height:19px;}
+		table.footTable {width:100% !important;}
+		td.row25 {padding:0 35px !important;}
+		table.footTable td.share {padding-left:25px !important;}
+		table.footTable td.policy {padding:20px 15px 10px 18px !important;}
+		table.footTable td.help {padding:0 5px 0 18px !important;}
+		table.footTable td.bookshop {padding:0 10px 0 30px !important;}
+		table.footTable td.getNook {padding:0 10px 0 10px !important;}
+		table.footTable td.terms {font-size:11px !important; padding:18px !important;}
+		td br.inline {display:none !important;}
+}
+
+
+
+</style>
+<body bgcolor="#dadadb">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="dadadb">
+        <tr>
+            <td>
+            	<table class="mainContainer" align="center" width="742" cellpadding="0" cellspacing="0" border="0" bgcolor="#f5f5f5">
+                   	
+                    <tr><!-- row 1  -->
+                    	<td class="row1" valign="top" bgcolor="#f5f5f5" style="padding:0 40px 40px 40px; border-top:1px solid #bababb; border-left:1px solid #bababb;
+                            border-right:1px solid #bababb;">
+                            <p style="color:#474646; font-family:Arial, Helvetica, sans-serif; font-size:10px;">
+                            To ensure you receive emails from NOOK&reg;, please add <a style="color:#2b7191; text-decoration:none;" 
+                            href="#">BarnesandNoble@m.bn.com</a> to your address book.<br class="inline">
+                            <a style="color:#2b7191; text-decoration:none;" href="#">View in Browser</a>
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 2  -->
+                    	<td class="row2" valign="top" bgcolor="#f5f5f5" style="padding:0 40px 25px 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	<img style="display:block; margin:auto;" src="images/nook_logo.png" alt="Nook" width="119" height="43">
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 3  -->
+                    	<td class="row3" valign="top" bgcolor="#f5f5f5" style="padding:0 37px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	
+                            <table class="topMenu" cellpadding="7" cellspacing="0" border="0" width="660" bgcolor="#f5f5f5">
+                            	<tr>
+                                	<td>
+                                    	<a style="color:#474646; font-family:Arial, Helvetica, sans-serif; font-size:16px;
+                                           text-decoration:none;" href="#" title="Buy NOOK">Buy NOOK</a>
+                                    </td>
+                                    <td>
+                                    	<a style="color:#474646; font-family:Arial, Helvetica, sans-serif; font-size:16px;
+                                           text-decoration:none;" href="#" title="Accessories">Accessories</a>
+                                    </td>
+                                    <td>
+                                    	<a style="color:#474646; font-family:Arial, Helvetica, sans-serif; font-size:16px;
+                                           text-decoration:none;" href="#" title="Bookshop">Bookshop</a>
+                                    </td>
+                                    <td>
+                                    	<a style="color:#474646; font-family:Arial, Helvetica, sans-serif; font-size:16px;
+                                           text-decoration:none;" href="#" title="NOOK Mobile Apps">NOOK Mobile Apps</a>
+                                    </td>
+                                    <td>
+                                    	<a style="color:#474646; font-family:Arial, Helvetica, sans-serif; font-size:16px;
+                                           text-decoration:none;" href="#" title="Try In Store">Try In Store</a>
+                                    </td>
+                                </tr>
+                                                        
+                                
+                            </table>
+                            
+                                                    
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 4  -->
+                    	<td  class="row4" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	<img src="images/divider.png" width="641" height="19">
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 5  -->
+                    	<td class="row5" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                                
+                                <table class="bundlesRight" width="290" border="0" cellspacing="0" cellpadding="0" align="right">
+                                  <tr>
+                                    <td valign="top">
+                                    	<a href="#" title="Low Price Buncles"><img style="padding-top:25px;" src="images/right-bundle.png" width="290" height="183"></a>
+                                    	
+                                    
+                                    </td>
+                                  </tr>
+                                </table>
+
+                        		<table class="bundlesLeft" width="290" border="0" cellspacing="0" cellpadding="0" align="left">
+                                  <tr>
+                                    <td valign="top">
+                                    	<h1 style="font-family:Arial, Helvetica, sans-serif; font-size:28px; color:#474646;">Bundles of Books for One Low Price</h1>
+                                        <p style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#474646; line-height:22px;">
+                                        	It's the perfect month to bundle up!<br>
+                                        	With a single purchase you can discover
+                                            a new series or explore collections of
+                                            your favourite authors' works.<br><br>
+                                        	<a style="color:#2b7191; font-size:16px; text-decoration:none;" href="#" title="See More Book Bundles">
+                                            See More Book Bundles &rsaquo;</a>
+                                        </p>
+                                    
+                                    
+                                    
+                                    </td>
+                                  </tr>
+                                </table>
+                        
+                        
+                        
+                        
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 6  -->
+                    	<td class="row6" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	<img src="images/divider.png" width="641" height="19">
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 7  -->
+                    	<td class="row7" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	
+                                                  
+                          <table class="writersLeft" cellpadding="0" cellspacing="0" border="0" align="left">
+                          		<tr>
+                                	<td>  
+                                        <h2 style="font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#474646; margin-bottom:0;">
+                                            NOOK's Writers in Focus: Hilary Mantel</h2>
+                                        <p style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#474646; margin-top:7px;">
+                                           The Booker Prize Winner of Wolf Hall & Bring Up the Bodies
+                                        </p>
+                                    </td>
+                                </tr>
+                          </table>      
+                          
+                           <table class="writersRight" cellspacing="0" cellpadding="0" border="0" align="right" style="padding:41px 30px 0 0;">
+                          		<tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#474646;" ><a style="color:#2b7191; 
+                                           font-size:16px; text-decoration:none;" href="#" title="See More Books">
+                                            See More Books &rsaquo;</a>
+                                        </p>    
+                                    </td>
+                                </tr>
+                          </table> 
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                           
+                                              
+                        </td>
+                    </tr>
+                    
+                   <tr><!-- row 8  -->
+                    	<td class="row8" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	<img src="images/divider.png" width="641" height="19">
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 9  -->
+                    	<td class="row9" valign="top" bgcolor="#f5f5f5" style="padding:0 40px 30px 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        
+                        	<table class="booksLeft" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="left">
+                            	<tr>
+                                	<td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Wolf Hall"><img src="images/wolf-hall.png" width="128" height="195" alt="Wolf Hall"></a>
+                        			</td>
+                                    <td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Bring Up The Bodies"><img src="images/bring-up-the-bodies.png" width="128" height="197"></a>
+                        			</td>	
+                        		</tr>
+                                <tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Wolf Hall</strong><br>
+                                         by Hilary Mantel<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;6.69</a> 
+                                        </p>
+                                    	
+                        			</td>
+                                    <td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Bring Up the Bodies</strong><br>
+                                         by Hilary Mantel<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;6.71</a> 
+                                        </p>	
+                        		</tr>
+                        	</table>
+                            
+                            <table class="booksRight" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="left">
+                            	<tr>
+                                	<td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Giving Up The Ghost"><img src="images/giving-up-the-ghost.png" width="128" height="195" 
+                                         alt="Giving Up The Ghost"></a>
+                        			</td>
+                                    <td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="A Place of Greater Safety"><img src="images/a-place-of-greater-safety.png" width="128" height="197"
+                                         alt="A Place of Greater Safety"></a>
+                        			</td>	
+                        		</tr>
+                                <tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Giving up the Ghost:</strong><br>
+                                         by Hilary Mantel<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;5.99</a> 
+                                        </p>
+                                    	
+                        			</td>
+                                    <td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>A Place of Greater Safety</strong><br>
+                                         by Hilary Mantel<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;6.71</a> 
+                                        </p>	
+                        		</tr>
+                        	</table>
+                            
+                            
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 10  -->
+                    	<td class="row10" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	
+                          
+                          
+                            <table class="writersLeft" cellpadding="0" cellspacing="0" border="0" align="left">
+                          		<tr>
+                                	<td>  
+                                        <h2 style="font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#474646; margin-bottom:0;">
+                                            Now at a Great New Price!</h2>
+                                        <p style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#474646; margin-top:7px;">
+                                           New Low Prices on the Year's Top Books & Recent Bestsellers
+                                        </p>
+                                    </td>
+                                </tr>
+                           </table>      
+                          
+                                                    
+                           <table class="writersRight" cellspacing="0" cellpadding="0" border="0" align="right" style="padding:41px 30px 0 0;">
+                          		<tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#474646;" ><a style="color:#2b7191; 
+                                           font-size:16px; text-decoration:none;" href="#" title="See More Books">
+                                            See More Books &rsaquo;</a>
+                                        </p>    
+                                    </td>
+                                </tr>
+                          </table> 
+                          
+                          
+                                                               
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 11  -->
+                    	<td class="row11" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	<img src="images/divider.png" width="641" height="19">
+                        </td>
+                    </tr>
+                    
+                     <tr><!-- row 12  -->
+                    	<td class="row12" valign="top" bgcolor="#f5f5f5" style="padding:0 40px 30px 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        
+                        	<table class="booksLeft" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="left">
+                            	<tr>
+                                	<td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="James Patterson"><img src="images/james-patterson.png" width="128" height="195" alt="James Patterson"></a>
+                        			</td>
+                                    <td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Kate Atkinson"><img src="images/kate-atkinson.png" width="128" height="195" alt="Kate Atkinson"></a>
+                        			</td>	
+                        		</tr>
+                                <tr>
+                                	<td>
+                                   	  <p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Private Down Under</strong><br>
+                                         by James Patterson<br>
+                                        <a style="color:#2b7191; text-decoration:none;" href="#">&pound;4.99</a> 
+                                        </p>
+                                    	
+                        			</td>
+                                    <td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Life After Life</strong><br>
+                                         by Kate Atkinson<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;4.99</a>
+                                         </p>	
+                        		</tr>
+                        	</table>
+                            
+                            <table class="booksRight" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="left">
+                            	<tr>
+                                	<td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Never Saw It Coming"><img src="images/never-saw-it-coming.png" width="128" height="195" 
+                                         alt="Never Saw It Coming"></a>
+                        			</td>
+                                    <td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Manuscript"><img src="images/manuscript.png" width="128" height="195"
+                                         alt="Manuscript"></a>
+                        			</td>	
+                        		</tr>
+                                <tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Never Saw it Coming</strong><br>
+                                         by Linwood Barclay<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;3.99</a> 
+                                        </p>
+                                    	
+                        			</td>
+                                    <td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Manuscript Found in Accra</strong><br>
+                                         by Paulo Coelho<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;0.99</a>
+                                         </p>	
+                        		</tr>
+                        	</table>
+                            
+                            
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 13  -->
+                    	<td class="row13" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	
+                            
+                          <table class="writersLeft" cellpadding="0" cellspacing="0" border="0" align="left">
+                          		<tr>
+                                	<td>  
+                                        <h2 style="font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#474646; margin-bottom:0;">
+                                            Try Any Title FREE for 14 Days!</h2>
+                                        
+                                    </td>
+                                </tr>
+                          </table>      
+                           
+                       	  <table class="writersRight" cellspacing="0" cellpadding="0" border="0" align="right" style="padding:10px 30px 0 0;">
+                          		<tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#474646;" ><a style="color:#2b7191; 
+                                           font-size:16px; text-decoration:none;" href="#" title="See More Magazines">
+                                            See More Magazines  &rsaquo;</a>
+                                        </p>    
+                                    </td>
+                                </tr>
+                          </table> 	
+                          
+                                                      
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 14  -->
+                    	<td class="row14" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	<img src="images/divider.png" width="641" height="19">
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 15  -->
+                    	<td class="row15" valign="top" bgcolor="#f5f5f5" style="padding:0 40px 30px 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        
+                        	<table class="booksLeft" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="left">
+                            	<tr>
+                                	<td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Daily Star"><img src="images/daily-star.png" width="128" height="162" alt="Daily Star"></a>
+                        			</td>
+                                    <td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Android"><img src="images/android.png" width="128" height="162" alt="Android"></a>
+                        			</td>	
+                        		</tr>
+                                <tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Daily Star</strong><br>
+                                        <a style="color:#2b7191; text-decoration:none;" href="#">&pound;4.99 Monthly</a>
+                                        </p>
+                                    	
+                        			</td>
+                                    <td>
+                                   	  <p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Android Magazine</strong><br>
+                                        <a style="color:#2b7191; text-decoration:none;" href="#">&pound;2.00 Monthly</a>
+                                        </p>	
+                        		</tr>
+                        	</table>
+                            
+                            <table class="booksRight" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="left">
+                            	<tr>
+                                	<td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Reveal"><img src="images/reveal.png" width="128" height="162" 
+                                         alt="Reveal"></a>
+                        			</td>
+                                    <td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Photographer"><img src="images/photographer.png" width="128" height="162"
+                                         alt="Photographer"></a>
+                        			</td>	
+                        		</tr>
+                                <tr>
+                                	<td>
+                                   	  <p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Reveal</strong><br>
+                                        <a style="color:#2b7191; text-decoration:none;" href="#">&pound;2.69 Monthly</a>
+                                        </p>
+                                    	
+                        			</td>
+                                    <td>
+                                   	  <p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Amateur Photographer</strong><br>
+                                        <a style="color:#2b7191; text-decoration:none;" href="#">&pound;7.96 Monthly</a>
+                                        </p>	
+                        		</tr>
+                        	</table>
+                            
+
+                            
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 16  -->
+                    	<td class="row16" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	
+                                          
+                                                        
+                         <table class="writersLeft" cellpadding="0" cellspacing="0" border="0" align="left">
+                          		<tr>
+                                	<td>  
+                                        <h2 style="font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#474646; margin-bottom:0;">
+                                            From the Page to the Screen</h2>
+                                        <p style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#474646; margin-top:7px;">
+                                           Read Before You Watch
+                                        </p>
+                                    </td>
+                                </tr>
+                          </table>      
+                          
+                          <table class="writersRight" cellspacing="0" cellpadding="0" border="0" align="right" style="padding:41px 30px 0 0;">
+                          		<tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#474646;" ><a style="color:#2b7191; 
+                                           font-size:16px; text-decoration:none;" href="#" title="See More Books">
+                                            See More Books &rsaquo;</a>
+                                        </p>    
+                                    </td>
+                                </tr>
+                          </table> 
+                          
+                                                              
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 17  -->
+                    	<td class="row17" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	<img src="images/divider.png" width="641" height="19">
+                        </td>
+                    </tr>
+                    
+                      <tr><!-- row 18  -->
+                    	<td class="row18" valign="top" bgcolor="#f5f5f5" style="padding:0 40px 30px 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        
+                        	<table class="booksLeft" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="left">
+                            	<tr>
+                                	<td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="The Wolf of Wall Street">
+                                        <img src="images/the-wolf-of-wall-street.png" width="128" height="196" alt="The Wolf of Wall Street"></a>
+                        			</td>
+                                    <td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Railway Man">
+                                        <img src="images/railway-man.png" alt="Railway Man" width="128" height="196"></a>
+                        			</td>	
+                        		</tr>
+                                <tr>
+                                	<td>
+                                   	  <p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>The Wolf of Wall Street</strong><br>
+                                         by Jordan Belfort<br>
+                                        <a style="color:#2b7191; text-decoration:none;" href="#">&pound;4.99</a> 
+                                        </p>
+                                    	
+                        			</td>
+                                    <td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>The Railway Man</strong><br>
+                                         by Eric Lomax<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;4.99</a>
+                                         </p>	
+                        		</tr>
+                        	</table>
+                            
+                            <table class="booksRight" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="left">
+                            	<tr>
+                                	<td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="12 Years a Slave"><img src="images/12-years-slave.png" 
+                                         alt="12 Years a Slave" width="128" height="196" border="0"></a>
+                        			</td>
+                                    <td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="The Monuments Men">
+                                        <img src="images/the-monuments-men.png" width="128" height="196"
+                                         alt="A Place of Greater Safety"></a>
+                        			</td>	
+                        		</tr>
+                                <tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>12 Years a Slave</strong><br>
+                                         by Solomon Northup<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;2.99 </a>
+                                        </p>
+                                    	
+                        			</td>
+                                    <td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>The Monuments Men</strong><br>
+                                         by Robert M. Edsel<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;5.99</a></p>	
+                        		</tr>
+                        	</table>
+                            
+                            
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 19  -->
+                    	<td class="row19" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	
+                                    
+                          <table class="writersLeft" cellpadding="0" cellspacing="0" border="0" align="left">
+                          		<tr>
+                                	<td>  
+                                        <h2 style="font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#474646; margin-bottom:0;">
+                                            New Releases: Fiction</h2>
+                                       
+                                    </td>
+                                </tr>
+                          </table>      
+                         
+                         
+                         <table class="writersRight" cellspacing="0" cellpadding="0" border="0" align="right" style="padding:10px 30px 0 0;">
+                          		<tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#474646;" ><a style="color:#2b7191; 
+                                           font-size:16px; text-decoration:none;" href="#" title="See More Fiction">
+                                            See More Fiction &rsaquo;</a>
+                                        </p>    
+                                    </td>
+                                </tr>
+                          </table> 
+                         
+                         
+                                                          
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 20  -->
+                    	<td class="row20" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	<img src="images/divider.png" width="641" height="19">
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 21  -->
+                    	<td class="row21" valign="top" bgcolor="#f5f5f5" style="padding:0 40px 30px 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        
+                        	<table class="booksLeft" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="left">
+                            	<tr>
+                                	<td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Stephen Leather"><img src="images/stephen-leather.png" width="128" height="195" alt="Stephen Leather"></a>
+                        			</td>
+                                    <td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Carthage"><img src="images/carthage-oates.png" alt="Carthage" width="128" height="196"></a>
+                        			</td>	
+                        		</tr>
+                                <tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Lastnight</strong><br>
+                                         by Stephen Leather<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;10.99</a>
+                                         </p>
+                                    	
+                        			</td>
+                                    <td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Carthage</strong><br>
+                                         by Joyce Carol Oates<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;9.99</a>
+                                         </p>	
+                        		</tr>
+                        	</table>
+                            
+                            <table class="booksRight" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="left">
+                            	<tr>
+                                	<td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Ellie Dean"><img src="images/ellie-dean.png" width="128" height="196" 
+                                         alt="Ellie Dean"></a>
+                        			</td>
+                                    <td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Mother, Mother"><img src="images/mother-mother.png" width="128" height="196"
+                                         alt="Mother, Mother"></a>
+                        			</td>	
+                        		</tr>
+                                <tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>All My Tomorrows</strong><br>
+                                         by Ellie Dean<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;3.99</a> 
+                                        </p>
+                                    	
+                        			</td>
+                                    <td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Mother, Mother</strong><br>
+                                         by Koren Zailckas<br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;8.49</a>
+                                         </p>
+                                     	
+                        		</tr>
+                        	</table>
+                            
+
+                            
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 22  -->
+                    	<td class="row22" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	
+                           
+                          <table class="writersLeft" cellpadding="0" cellspacing="0" border="0" align="left">
+                          		<tr>
+                                	<td>  
+                                        <h2 style="font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#474646; margin-bottom:0;">
+                                            What's Hot in NOOK Apps</h2>
+                                        
+                                    </td>
+                                </tr>
+                          </table>      
+                          
+                          <table class="writersRight" cellspacing="0" cellpadding="0" border="0" align="right" style="padding:10px 30px 0 0;">
+                          		<tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#474646;" ><a style="color:#2b7191; 
+                                           font-size:16px; text-decoration:none;" href="#" title="See More Apps">
+                                            See More Apps &rsaquo;</a>
+                                        </p>    
+                                    </td>
+                                </tr>
+                          </table> 
+                          
+                                                              
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 23  -->
+                    	<td class="row23" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        	<img src="images/divider.png" width="641" height="19">
+                        </td>
+                    </tr>
+                    
+                    <tr><!-- row 24  -->
+                    	<td class="row24" valign="top" bgcolor="#f5f5f5" style="padding:0 40px 30px 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        
+                        	<table class="booksLeft" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="left">
+                            	<tr>
+                                	<td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Pac-Man"><img src="images/pacman.png" width="128" height="128" alt="Pac Man"></a>
+                        			</td>
+                                    <td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Speed Simon"><img src="images/speed-simon.png" alt="Speed Simon" width="128" height="128"></a>
+                        			</td>	
+                        		</tr>
+                                <tr>
+                                	<td>
+                                   	  <p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>PAC-MAN</strong><br>
+                                        <a style="color:#2b7191; text-decoration:none;" href="#">&pound;3.44</a> 
+                                        </p>
+                                    	
+                        			</td>
+                                    <td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Speed Simon</strong><br>
+                                        <a style="color:#2b7191; text-decoration:none;" href="#">&pound;1.14</a> 
+                                        </p>	
+                        		</tr>
+                        	</table>
+                            
+                            <table class="booksRight" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="left">
+                            	<tr>
+                                	<td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="Drawing Pad"><img src="images/drawing-pad.png" width="128" height="128" 
+                                         alt="Drawing Pad"></a>
+                        			</td>
+                                    <td style="padding:20px 30px 15px 0;">
+                                    	<a href="#" title="The Secret of Grisly Manor"><img src="images/the-secret-of-grisly-manor.png" width="128" height="128"
+                                         alt="The Secret of Grisly Manor"></a>
+                        			</td>	
+                        		</tr>
+                                <tr>
+                                	<td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>Drawing Pad</strong><br>
+                                         <a style="color:#2b7191; text-decoration:none;" href="#">&pound;1.72</a> 
+                                        </p>
+                                    	
+                        			</td>
+                                    <td>
+                                    	<p style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#474646; margin:0;">
+                                        <strong>The Secret of Grisly Manor</strong><br>
+                                        <a style="color:#2b7191; text-decoration:none;" href="#">&pound;0.79</a> 
+                                        </p>	
+                        		</tr>
+                        	</table>
+                            
+                            
+                            
+                        </td>
+                    </tr>
+                    
+                     <tr><!-- row 25 -->
+                    	<td class="row25" valign="top" bgcolor="#f5f5f5" style="padding:0 40px; border-left:1px solid #bababb; border-right:1px solid #bababb;">
+                        
+                        		<table class="footTable" bgcolor="#3e3f45" cellpadding="0" cellspacing="0" border="0" width="660">
+                                	<tr>
+                                    	<td class="policy" width="253" valign="top" bgcolor="#3e3f45" style="padding:20px 40px 10px 20px; color:#ffffff;">
+                                            <p><a style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px;" 
+                                             href="#" title="Unsubscribe">Unsubscribe</a> | 
+                                            <a style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px;" 
+                                             href="#" title="Privacy Policy">Privacy</a>
+                                            </p>
+                                        </td>
+                                        <td class="share" width="214" align="right" valign="top" bgcolor="#3e3f45" style="padding:25px 0px 10px 40px;">
+                                        	<p style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#ffffff;
+                                             font-weight:bold;">Share This email:</p>
+                                                                                         
+                                        
+                                        </td>
+                                        
+                                        <td width="111" align="right" valign="top" bgcolor="#3e3f45" style="padding:25px 0 10px 0px;">
+                                        	 <a href="#" title="Facebook"><img src="images/foot-facebook.png" width="45" height="45"></a>
+                                            
+                                        </td>
+                                        <td width="82" align="right" valign="top" bgcolor="#3e3f45" style="padding:25px 15px 10px 0px;">
+                                        	 <a href="#" title="Twitter"><img src="images/foot-twitter.png" width="45" height="45"></a>
+                                        </td>
+                                        
+                                                                             
+                        			</tr>
+                                    
+                                    <tr>
+                                    	<td class="footDivide" colspan="4" valign="top" align="center" bgcolor="#3e3f45" style="padding:0 10px;">
+                                        	<img src="images/foot-divider.png" width="640" height="14">
+                                        </td>
+                                    </tr>
+                                   
+                                   <tr>
+                                    	<td class="help" valign="top" bgcolor="#3e3f45" style="padding:0 20px;">
+                                        <p style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#ffffff; font-weight:bold;">
+                                        We're Here to Help<br><br>
+                                        <a style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px; font-weight:normal;" 
+                                         href="#" title="Find a Retailer">Find a Retailer</a><br><br>
+                                        <a style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px; font-weight:normal;"  
+                                         href="#" title="NOOK Customer Service">NOOK Customer Service</a>
+                                         </p>
+                                        </td>
+                                        
+                                        
+                                        <td class="bookshop" valign="top" bgcolor="#3e3f45" style="padding:0 20px;">
+                                        <p style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#ffffff; font-weight:bold;">
+                                        Bookshop<br><br>
+                                        <a style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px; font-weight:normal;" 
+                                         href="#" title="Books">Books</a><br><br>
+                                        <a style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px; font-weight:normal;"  
+                                         href="#" title="Magazines">Magazines</a><br><br>
+                                         <a style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px; font-weight:normal;"  
+                                         href="#" title="Newspapers">Newspapers</a><br><br>
+                                         <a style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px; font-weight:normal;"  
+                                         href="#" title="NOOK Apps">NOOK Apps</a>
+                                         </p>
+                                        </td>
+                                        
+                                        
+                                        <td class="getNook" colspan="2" align="left" valign="top" bgcolor="#3e3f45" style="padding:0 20px;">
+                                        <p style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#ffffff; font-weight:bold;">
+                                        Get NOOK<br><br>
+                                        <a style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px; font-weight:normal;" 
+                                         href="#" title="NOOK&reg; Simple Touch">NOOK&reg; Simple Touch</a><br><br>
+                                         
+                                        <a style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px; font-weight:normal;"  
+                                         href="#" title="NOOK&reg; HD">NOOK&reg; HD</a><br><br>
+                                         <a style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px; font-weight:normal;" 
+                                         href="#" title="NOOK&reg; HD+">NOOK&reg; HD+</a><br><br>
+                                         <a style="font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px; font-weight:normal;"  
+                                         href="#" title="NOOK Mobile Apps">NOOK Mobile Apps</a>
+                                         </p>
+                                        </td>
+                                        
+                                    </tr>
+                                   
+                                   <tr>
+                                    	<td class="footDivide" colspan="4" valign="top" align="center" bgcolor="#3e3f45" style="padding:0 10px;">
+                                        	<img src="images/foot-divider.png" width="640" height="14">
+                                        </td>
+                                    </tr>
+                                    
+                                                               
+                                   <tr>
+                                    	<td class="terms" colspan="4" valign="top" align="left" bgcolor="#3e3f45" style="padding:20px; 
+                                          font-family:Arial, Helvetica, sans-serif; font-size:11.5px; color:#ffffff; font-weight:normal;line-height:18px;">
+                                          
+                                          Subject to availability. Prices are subject to change.<br>
+                                          If you have questions or require assistance, we invite you to chat with one of our agents by clicking
+                                          on this link: <a style="color:#ffffff; font-size:11.5px; font-weight:normal;" href="#">http://nook.co.uk/support</a>.<br>
+                                          Our Chat Service is available 08:00 - 21:00 GMT, 7 days a week.<br>
+                                          &copy; 2014 Barnes & Noble S. &agrave; r.l. All Rights Reserved.<br>
+                                          This email is an advertisement from Barnes & Nobles S. &agrave; r.l.<br>
+                                          22-24 boulevard Royal, L-2449 Luxembourg<br>
+                                          Attn: Marketing Preferences
+                                        	
+                                        </td>
+                                    </tr>
+                                    
+                                   
+                                    
+                                </table>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </td>           
+                    </tr>
+                    
+                   
+                    
+                   
+                    
+                     <tr><!-- row 26 -->
+                    	<td>
+                        </td>           
+                    </tr>
+                    
+                    <tr><!-- row 27 -->
+                    	<td>
+                        </td>           
+                    </tr>
+                    
+                    <tr><!-- row 28 -->
+                    	<td>
+                        </td>           
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+</body>
+</html>
